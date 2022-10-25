@@ -7,16 +7,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Footer = () => {
     return (
-        <div className='d-flex align-items-center justify-content-around w-100 bg-success h-10 mt-10 '>
+        <div className=' justify-content-around w-100 bg-success h-10 mt-10 d-none d-sm-flex'>
             <div className='img-fluid max-width:100; height: auto;'>
                 <img src={pix2} alt="" />
             </div>
             
-            <div>
+            <div className='d-inline'>
                 <span>HNG internship 9 Frontend task</span>
             </div>
 
-            <div className='img-fluid'>
+            <div className='img-fluid '>
                 <img src={pix} alt="" />
             </div>
         </div>
