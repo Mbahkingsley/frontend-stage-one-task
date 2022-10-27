@@ -1,13 +1,13 @@
 import React from 'react';
 import pix from '../I4G.png';
-import pix2 from '../zuri.png';
-// import pix3 from '../giticon.png';
+import pix2 from '../vector1.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const Footer = () => {
     return (
-        <div className=' justify-content-around w-100 bg-success h-10 mt-10 d-none d-sm-flex'>
+        <div className=' container justify-content-around w-100 h-10 mt-20 flex-wrap d-sm-flex'>
+        
             <div className='img-fluid max-width:100; height: auto;'>
                 <img src={pix2} alt="" />
             </div>

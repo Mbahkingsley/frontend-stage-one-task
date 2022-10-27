@@ -8,12 +8,7 @@ function App() {
   return (
     <div>
     <Profile/>
-     <Links link='Twitter' />
-     <Links link= 'Zuri Team' />
-     <Links link= 'Zuri Team'/>
-     <Links link= 'Zuri Team'/>
-     <Links link= 'Zuri Team'/>
-     <Links link= 'Zuri Team'/>
+     <Links />
      <Footer />
     
     </div>
