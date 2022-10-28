@@ -21,28 +21,28 @@ const Links = () => {
           </a>
         
           <a id="books" className="text-decoration-none text-reset mt-3 w-75 bg-gray-300 h-10 p-2 text-center" href="https://books.zuri.team">
-            Zuri Books where to find the best books about tech
+            Zuri Books
           </a>
         
           <a id="book_python"
             className="text-decoration-none text-reset mt-3 w-75 bg-gray-300 h-10 p-2 text-center"
             href="https://books.zuri.team/python-for-beginners?ref_id=Nonxxo"
           >
-            Python Books for beginners and advance learners
+            Python Books
           </a>
         
           <a id="pitch"
             className="text-decoration-none text-reset mt-3 w-75 bg-gray-300 h-10 p-2 text-center"
             href="https://background.zuri.team"
           >
-            Find the best tech talents here
+            Background Check for Coders
           </a>
         
           <a id="book_design"
             className="text-decoration-none text-reset mt-3 w-75 bg-gray-300 h-10 p-2 text-center"
             href="https://books.zuri.team/design-rules"
           >
-            Awesome Design guide book from the Zuri Team
+            Design Books
           </a>
         
       </div>

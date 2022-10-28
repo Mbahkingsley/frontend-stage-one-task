@@ -18,7 +18,7 @@ const Profile = () => {
                 <img className="d-none d-lg-block" src={icon} alt="icon" />
             </div>
 
-            <div style={{position:"absolute", right:'120px', top:'30px'}}>
+            <div style={{position:"absolute", right:'20px', top:'30px'}}>
               <img className="d-lg-none" src={ham} alt="hamburger menu icon" />
             </div>
       </div>
