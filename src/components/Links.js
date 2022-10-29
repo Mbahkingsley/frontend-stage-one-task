@@ -9,47 +9,48 @@ const Links = () => {
       <div className="d-flex flex-column align-items-center justify-content-center w-100 h-50">
         
           <a
-            className="text-decoration-none text-reset mt-1 w-75 bg-gray-300 h-10 p-2 text-center"
+            className="text-decoration-none text-reset mt-1 w-75 bg-gray-300 h-14 p-3 text-center rounded-top rounded-bottom"
             href="https://twitter.com/Mbahkingsley13"
           >
-            Twitter Link
+           <strong>Twitter Link</strong> 
           </a>
       
        
-          <a id="btn_zuri" className="text-decoration-none text-reset mt-3 w-75 bg-gray-300 h-10 p-2 text-center" href="https://training.zuri.team">
-            Zuri Team
+          <a id="btn__zuri" className="text-decoration-none text-reset mt-3 w-75 bg-gray-300 h-14 p-3 text-center rounded-top rounded-bottom" href="https://training.zuri.team">
+           <strong>Zuri Team</strong>
           </a>
         
-          <a id="books" className="text-decoration-none text-reset mt-3 w-75 bg-gray-300 h-10 p-2 text-center" href="https://books.zuri.team">
-            Zuri Books
+          <a id="books" className="text-decoration-none text-reset mt-3 w-75 bg-gray-300 h-14 p-3 text-center rounded-top rounded-bottom" href="https://books.zuri.team">
+           <strong>Zuri Books</strong> 
           </a>
         
-          <a id="book_python"
-            className="text-decoration-none text-reset mt-3 w-75 bg-gray-300 h-10 p-2 text-center"
+          <a id="book__python"
+            className="text-decoration-none text-reset mt-3 w-75 bg-gray-300 h-14 p-3 text-center rounded-top rounded-bottom"
             href="https://books.zuri.team/python-for-beginners?ref_id=Nonxxo"
           >
-            Python Books
+           <strong>Python Books</strong> 
           </a>
         
           <a id="pitch"
-            className="text-decoration-none text-reset mt-3 w-75 bg-gray-300 h-10 p-2 text-center"
+            className="text-decoration-none text-reset mt-3 w-75 bg-gray-300 h-14 p-3 text-center rounded-top rounded-bottom"
             href="https://background.zuri.team"
           >
-            Background Check for Coders
+           <strong>Background Check for Coders</strong>
           </a>
         
-          <a id="book_design"
-            className="text-decoration-none text-reset mt-3 w-75 bg-gray-300 h-10 p-2 text-center"
+          <a id="book__design"
+            className="text-decoration-none text-reset mt-3 w-75 bg-gray-300 h-14 p-3 text-center rounded-top rounded-bottom"
             href="https://books.zuri.team/design-rules"
           >
-            Design Books
+           <strong>Design Books</strong> 
           </a>
         
       </div>
-      <div className='d-flex align-items-center justify-content-center mt-4'>
+      <div className='d-flex align-items-center justify-content-center mt-4 mb-14 '>
         <img className='mr-2' src={pix3} alt="git icon " />
         <img className='h-5 w-5 ml-2' src={slack} alt="slack logo" />
       </div>
+      
     </div>
   );
 };
