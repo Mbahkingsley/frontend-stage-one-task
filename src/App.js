@@ -5,10 +5,11 @@ import Links from './components/Links';
 import Footer from './components/Footer';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
+import './App.css'
 
 function App() {
   return (
-    <div>
+    <div className='font-link'>
       <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />} />
