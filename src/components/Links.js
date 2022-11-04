@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import React from "react";
 import pix3 from '../giticon.png';
 import slack from '../slack.png';
@@ -43,6 +44,13 @@ const Links = () => {
             href="https://books.zuri.team/design-rules"
           >
            <strong>Design Books</strong> 
+          </a>
+
+          <a id="contact"
+            className="text-decoration-none text-reset mt-3 w-75 bg-gray-300 h-14 p-3 text-center rounded-top rounded-bottom"
+            href="/contact"
+          >
+           <strong>Contact Me</strong> 
           </a>
         
       </div>
