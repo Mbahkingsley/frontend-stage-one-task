@@ -19,7 +19,7 @@ const Contacts = () => {
         </p>
       </div>
       <form onSubmit={handleSubmit(onSubmit)} className="mb-40 form-group">
-         <div className="d-flex">             
+         <div className="d-flex flex-wrap">             
         <label>
           First Name {" "}
           <input style={{maxWidth:'95%'}} size='33' id="first_name" className="form-control mt-2 mr-5 border rounded-top mb-3 rounded-bottom h-10" type="text" placeholder="Enter your first name" {...register("firstname",{required: true})} />
