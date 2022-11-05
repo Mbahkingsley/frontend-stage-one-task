@@ -12,7 +12,7 @@ const Contacts = () => {
     <div>
         <div className="container-fluid d-lg-flex justify-content-center flex-column align-items-center ">
       
-      <div style={{maxWidth:'70%', marginRight:'23%'}} className="bg-primary mt-4 ">
+      <div style={{maxWidth:'70%', marginRight:'23%'}} className="mt-4 ">
         <h2>Contact Me</h2>
         <p className="mt-2 mb-3 ">
           Hi there, Contact me to ask me about anything you have in mind.
