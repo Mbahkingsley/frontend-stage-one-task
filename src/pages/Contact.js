@@ -19,6 +19,7 @@ const Contacts = () => {
         </p>
       </div>
       <form onSubmit={handleSubmit(onSubmit)} className="mb-40 form-group">
+         <div className="d-flex">             
         <label>
           First Name {" "}
           <input style={{maxWidth:'95%'}} size='33' id="first_name" className="form-control mt-2 mr-5 border rounded-top mb-3 rounded-bottom h-10" type="text" placeholder="Enter your first name" {...register("firstname",{required: true})} />
@@ -31,6 +32,7 @@ const Contacts = () => {
           {errors.lastname && <sub><em className="text-danger">Please check the last Name</em></sub>}
         </label>{" "}
         <br />
+          </div>
         <label className="">
           Email <br /> <input style={{maxWidth:'95%'}} id="email" type="email" size='85' className=" border mt-2 rounded-top rounded-bottom h-10 form-control" placeholder="yourname@email.com" {...register("email",{required: true, pattern: /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/ })} />
           {errors.email && <sub><em className="text-danger">Please check the email</em></sub>}
