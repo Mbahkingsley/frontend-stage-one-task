@@ -44,7 +44,7 @@ const Contacts = () => {
           {errors.message && <sub><em className="text-danger">Please enter a message</em></sub>}
         </label> <br />
         <div className="mt-3 mb-3">
-        <input type="checkbox" id="" /> <span >you agree to providing your data to {} who may contact you.</span> <br />
+        <input type="checkbox" id="" /> <span >you agree to providing your data to Kingsley who may contact you.</span> <br />
         </div>
         <button style={{maxWidth:'95%'}} id="btn__submit" className="bg-primary w-100 rounded-top rounded-bottom h-10" type="submit">Send message</button>
       </form>
